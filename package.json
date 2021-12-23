@@ -1,0 +1,33 @@
+{
+  "name": "webpack-worker-bug",
+  "version": "0.1.0",
+  "description": "Webpack worker bug",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js --node-env production",
+    "build:dev": "webpack --config webpack.config.js --node-env development",
+    "start": "webpack-dev-server --no-client-overlay",
+    "prettier": "prettier --write . --no-color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmpfs/webpack-worker-bug.git"
+  },
+  "author": "Muji <muji@tmpfs.org>",
+  "license": "(MIT OR Apache-2.0)",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "copy-webpack-plugin": "^5.0.0",
+    "prettier": "^2.5.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.3",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
